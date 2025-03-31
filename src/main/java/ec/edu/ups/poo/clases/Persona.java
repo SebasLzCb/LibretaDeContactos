@@ -16,7 +16,7 @@ public class Persona {
     public Persona() {
     }
 
-
+//declaracion de variablr persona
     public void setCedula(String cedula) {
         this.cedula = cedula;
     }
