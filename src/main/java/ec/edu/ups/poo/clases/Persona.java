@@ -20,7 +20,7 @@ public class Persona {
     public void setCedula(String cedula) {
         this.cedula = cedula;
     }
-
+//
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
