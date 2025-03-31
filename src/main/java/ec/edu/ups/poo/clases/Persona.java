@@ -12,9 +12,10 @@ public class Persona {
         this.apellido = apellido;
         this.direccion = direccion;
     }
-
+    //ingreso de variable persona
     public Persona() {
     }
+
 
     public void setCedula(String cedula) {
         this.cedula = cedula;
