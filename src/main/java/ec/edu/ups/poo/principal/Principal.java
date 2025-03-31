@@ -6,15 +6,7 @@ import java.util.Scanner;
 import java.util.GregorianCalendar;
 
 public class Principal {
-
     public static void main(String[] args) {
-
-        Persona persona = new Persona();
-        persona.setCedula("123456789");
-        persona.setNombre("Juan");
-        persona.setApellido("Perez");
-        persona.setDireccion("Direccion");
-
         Scanner scanner = new Scanner(System.in);
 
         System.out.println("Ingrese la cantidad de personas:");
@@ -32,9 +24,12 @@ public class Principal {
             String apellido = scanner.nextLine();
             System.out.print("Ingrese la dirección: ");
             String direccion = scanner.nextLine();
+            System.out.print("Ingrese el sexo: ");
+            String sexo = scanner.nextLine();
 
             personas[i] = new Persona(cedula, nombre, apellido);
             personas[i].setDireccion(direccion);
+            personas[i].setSexo(sexo);
         }
 
         System.out.println("\nIngrese la cantidad de familiares:");
