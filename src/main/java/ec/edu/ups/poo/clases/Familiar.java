@@ -60,6 +60,7 @@ public class Familiar extends Persona {
         int anioNacimiento = fechaDeNacimiento.get(Calendar.YEAR);
         int mesNacimiento = fechaDeNacimiento.get(Calendar.MONTH);
         int diaNacimiento = fechaDeNacimiento.get(Calendar.DAY_OF_MONTH);
+// corrije
 
         int edad = anioActual - anioNacimiento;
 
